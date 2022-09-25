@@ -21,9 +21,15 @@ public static class Program {
 		Window.Load += OnLoad;
 		Window.Closing += OnClosing;
 		
+		Window.FramebufferResize += FramebufferResize;
+		
 		Window.Run();
 	}
 	
+	private static void FramebufferResize(Vector2D<int> obj) {
+		RenderThread.Channel.Writer.TryWrite(new ViewportChangeRenderThreadMessage((uint)obj.X, (uint)obj.Y));
+	}
+
 	private static void OnClosing() {
 		RenderThread.RunLoop = false;
 		RenderThread.Thread!.Join();
