@@ -26,6 +26,7 @@ public static class Program {
 	
 	private static void OnClosing() {
 		RenderThread.RunLoop = false;
+		RenderThread.Thread!.Join();
 	}
 
 	private static void OnLoad() {
