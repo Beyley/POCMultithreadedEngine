@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCMultithreadedEngine", "POCMultithreadedEngine\POCMultithreadedEngine.csproj", "{5FCE09E1-786F-4EFA-91C2-ACD0D37F01EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FCE09E1-786F-4EFA-91C2-ACD0D37F01EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCE09E1-786F-4EFA-91C2-ACD0D37F01EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCE09E1-786F-4EFA-91C2-ACD0D37F01EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCE09E1-786F-4EFA-91C2-ACD0D37F01EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
